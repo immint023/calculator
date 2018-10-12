@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	background-image: url("./plant.jpg");
+	background-repeat: repeat-x;
+	background-size: cover;
+	background-position: 0 -2rem;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+.main h1 {
+	color: #fdacac;
+	position: relative;
+	left: 20%;
+	font-weight: 300;
+}
+.container {
+	border-radius: 1rem;
+	padding: 20px;	
+	background-color: #b79f9b;
+	position: relative;
+	left: 20%;
+	box-shadow: 0.4px 3px 12px rgba(0, 0, 0, 0.3);
+}
+.container form {
+	margin-bottom: 1rem;
+}
+#textview {
+	width: 100%;
+	height: 50px;
+	background-color: #f0f9f9;
+	outline: none;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #418bd0;
+	border: 2px solid transparent;
+}
+
+.button {
+	background-color: #e1ffef;
+	width: 50px;
+	height: 50px;
+	outline: none;
+	font-size: 1.2rem;
+	color: #418bd0;
+	border-radius: 30px;
+	margin: .2rem;
+	border: 2px solid transparent;
+	transition: all ease-in .23s;
+}
+.button:hover {
+	font-size: 1.5rem;
+	border: 2px solid #9de0d1ad;
+	background-color: #d6c7c7	;
+	color: white;
+}
+.button:active {
+	background-color: #e68a8a;
+	color: #ebb5fb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

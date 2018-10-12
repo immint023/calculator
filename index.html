@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="main">
+		<h1>CALCULATOR</h1>
+		<div class="container">
+			<form name="form">
+				<input type="text" id="textview">
+			</form>
+			<table id="table">
+				<tr>
+					<td><input class="button" type="button" value="C"></td>
+					<td><input class="button" type="button" value="%"></td>
+					<td><input class="button" type="button" value="x"></td>
+					<td><input class="button" type="button" value="÷"></td>
+				</tr>
+				<tr>
+					<td><input class="button" type="button" value="7"></td>
+					<td><input class="button" type="button" value="8"></td>
+					<td><input class="button" type="button" value="9"></td>
+					<td><input class="button" type="button" value="-"></td>
+				</tr>
+				<tr>
+					<td><input class="button "type="button" value="4"></td>
+					<td><input class="button "type="button" value="5"></td>
+					<td><input class="button "type="button" value="6"></td>
+					<td><input class="button "type="button" value="+"></td>
+				</tr>
+				<tr>
+					<td><input class="button" type="button" value="1"></td>
+					<td><input class="button" type="button" value="2"></td>
+					<td><input class="button" type="button" value="3"></td>
+					<td rowspan="5"><input class="button" style="height: 105px" type="button" value="=" id="equal"></td>
+				</tr>
+				<tr>
+					<td colspan="2"> <input class="button" style="width: 105px" type="button" value="0" ></td>
+					<td><input class="button" type="button" value="."></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+<script src="./index.js"></script>
+</html>
