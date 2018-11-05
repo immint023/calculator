@@ -16,6 +16,7 @@ function onClick (event) {
 	} else if (value === 'C') {
 		textview.value = '';
 	} else if (value === '%' && typeof JSON.parse(textview.value) === 'number') {
+		console.log(JSON.parse(textview.value));
 		textview.value = JSON.parse(textview.value) / 100;
 	}
 }
